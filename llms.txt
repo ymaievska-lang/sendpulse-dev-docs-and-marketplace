@@ -1,0 +1,36 @@
+# SendPulse Developer Docs & Marketplace
+
+> SendPulse is an AI-driven email and chatbot marketing platform with a built-in CRM. This repo describes SendPulse and its positioning, and documents the SendPulse App Directory (marketplace): apps installed by SendPulse users receive a one-time code on an Install URL (in an iframe), exchange it for per-user keys, get short-lived Bearer tokens and call the SendPulse REST API within approved scopes; uninstall triggers a POST to the Uninstall URL.
+
+Key endpoints:
+- GET or POST https://YOUR_INSTALL_URL/?code={code}&lang={lang} — loaded by SendPulse in an iframe when the app opens; code valid 1 minute
+- POST https://api.sendpulse.com/market-service/oauth/authorize — {app_id, secret, code} -> {client_id, client_secret, user_id}
+- POST https://api.sendpulse.com/oauth/access_token/market — {client_id, client_secret, grant_type: client_credentials} -> {access_token, expires_in}
+- POST https://YOUR_UNINSTALL_URL — sent by SendPulse on uninstall; reply 200 OK
+
+## Docs
+- [About SendPulse](docs/00-about-sendpulse.md): positioning, funnel, products, AI assistant, audiences, proof points
+- [App Directory overview](docs/01-overview.md): value for users and developers, catalog, concepts, lifecycle
+- [Quickstart](docs/02-quickstart.md): first private app end to end
+- [Solution types](docs/03-solution-types.md): public app, private app, external integration
+- [Create an app](docs/04-create-app.md): every settings field
+- [API scopes](docs/05-scopes.md): emails, smtp, automation, verifier_service, chatbots, sms, viber, crm, push_service, pop_ups, user_data
+- [Authorization flow](docs/06-authorization-flow.md): code -> app user keys
+- [User access token](docs/07-access-token.md): keys -> Bearer token, caching
+- [Uninstall webhook](docs/08-uninstall-webhook.md): payload and handling
+- [Calling the REST API](docs/09-calling-the-api.md): base URL, errors, background jobs
+- [UI Kit](docs/10-ui-kit.md): CDN stylesheet and classes
+- [Review and publishing](docs/11-review-and-publishing.md): checklist, timing
+- [Monetization](docs/12-monetization.md): one-time and annual pricing
+- [Telephony Starter Kit](docs/13-telephony-starter-kit.md): PHP/Laravel CRM telephony
+- [Troubleshooting](docs/14-troubleshooting.md): common errors and FAQ
+- [Manage solutions](docs/15-manage-solutions.md): statuses Draft, Under review, Approved, Needs fix, Blocked
+- [Security](docs/16-security.md): secrets, sessions, uninstall verification, rate limits
+
+## Examples
+- [Node.js + Express](examples/node-express/server.js)
+- [Python + Flask](examples/python-flask/app.py)
+
+## Optional
+- [SendPulse REST API reference](https://sendpulse.com/integrations/api)
+- [SendPulse MCP server](https://sendpulse.com/features/mcp)

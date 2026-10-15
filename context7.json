@@ -1,0 +1,29 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "SendPulse Developer Docs & Marketplace",
+  "description": "About SendPulse, the AI-driven email and chatbot marketing platform with a built-in CRM, and developer docs for the SendPulse App Directory (marketplace): install and authorization flow, per-user tokens, uninstall webhook, scopes, UI Kit, review, monetization.",
+  "folders": [
+    "docs",
+    "examples"
+  ],
+  "excludeFolders": [],
+  "excludeFiles": [],
+  "rules": [
+    "Exchange the install `code` immediately: it is valid for 1 minute.",
+    "App user keys (client_id/client_secret) come only from POST https://api.sendpulse.com/market-service/oauth/authorize. They are not the API keys from the user's account settings.",
+    "Get user tokens from POST https://api.sendpulse.com/oauth/access_token/market with grant_type=client_credentials, not from /oauth/access_token.",
+    "Store client_id and client_secret per SendPulse user; they stay the same while the app is installed.",
+    "Cache the access token until expires_in elapses; do not request a new token on every API call.",
+    "The Install URL may be called with GET or POST; handle both and read code and lang from the query string.",
+    "The app is rendered in an iframe on https://login.sendpulse.com: set CSP frame-ancestors to allow it, never X-Frame-Options DENY/SAMEORIGIN, and don't depend on third-party cookies.",
+    "Install URL and Uninstall URL must be public HTTPS endpoints.",
+    "Uninstall URL must return 200 OK; the connection is removed regardless of the response, so delete stored keys on receipt.",
+    "Request only the scopes your app actually uses; scopes affect moderation.",
+    "Add https://cdn.sendpulse.com/dist/css/sp-marketplace-app-ui.min.css to the app page <head> to match SendPulse UI.",
+    "App type (public, private, external integration) cannot be changed after creation.",
+    "Add users to a private app by their SendPulse account email in the App availability tab.",
+    "After the authorization flow, issue your own signed session; never identify users by a plain user_id in the URL.",
+    "Check `result` and numeric `code` in marketplace auth errors, not the error text.",
+    "Stay under 10 API requests per second per account; 429 means the quota is exceeded."
+  ]
+}
