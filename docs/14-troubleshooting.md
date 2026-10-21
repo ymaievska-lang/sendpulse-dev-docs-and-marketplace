@@ -68,4 +68,4 @@ Up to 2 business days; results arrive at your support email.
 
 ## Support
 
-https://sendpulse.com/support · Help Center: https://sendpulse.com/knowledge-base/app-directory/developers
+https://sendpulse.com/support?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=14-troubleshooting · Help Center: https://sendpulse.com/knowledge-base/app-directory/developers?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=14-troubleshooting

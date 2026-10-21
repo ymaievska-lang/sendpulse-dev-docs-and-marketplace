@@ -40,7 +40,7 @@ SendPulse is an **AI-driven email and chatbot marketing platform** with a built-
 
 **AI chatbots** answer beyond scripted flows using the business's prompts, reference content and web search, and can connect to ChatGPT, Claude, Gemini or DeepSeek.
 
-**AI agents outside SendPulse** (Claude, ChatGPT, Cursor and others) connect through the SendPulse MCP server at `https://mcp.sendpulse.com/mcp`. Details: https://sendpulse.com/features/mcp
+**AI agents outside SendPulse** (Claude, ChatGPT, Cursor and others) connect through the SendPulse MCP server at `https://mcp.sendpulse.com/mcp`. Details: https://sendpulse.com/features/mcp?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse
 
 ## Who uses it
 
@@ -69,13 +69,13 @@ The **SendPulse App Directory** is the app and template marketplace inside SendP
 
 | | |
 |---|---|
-| Website | https://sendpulse.com (also /latam, /br, sendpulse.ua) |
-| Pricing | https://sendpulse.com/pricing |
-| AI features | https://sendpulse.com/features/ai |
-| MCP server | https://sendpulse.com/features/mcp |
-| App Directory (integrations catalog) | https://sendpulse.com/marketplace/integrations |
-| For developers | https://sendpulse.com/partners/developer |
-| API | https://sendpulse.com/integrations/api |
-| Help Center | https://sendpulse.com/knowledge-base |
-| Platform updates | https://sendpulse.com/updates |
+| Website | https://sendpulse.com?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse (also /latam, /br, sendpulse.ua) |
+| Pricing | https://sendpulse.com/pricing?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| AI features | https://sendpulse.com/features/ai?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| MCP server | https://sendpulse.com/features/mcp?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| App Directory (integrations catalog) | https://sendpulse.com/marketplace/integrations?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| For developers | https://sendpulse.com/partners/developer?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| API | https://sendpulse.com/integrations/api?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| Help Center | https://sendpulse.com/knowledge-base?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
+| Platform updates | https://sendpulse.com/updates?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=00-about-sendpulse |
 | Service status | https://status.sendpulse.com |

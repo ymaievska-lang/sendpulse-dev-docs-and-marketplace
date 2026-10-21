@@ -2,8 +2,8 @@
 
 The **SendPulse App Directory** (also called the SendPulse marketplace, "App and template marketplace") is where SendPulse users find, install and manage apps that connect SendPulse to their other tools. Developers and SaaS companies publish apps there to reach SendPulse's customer base.
 
-Public catalog: https://sendpulse.com/marketplace/integrations
-For developers: https://sendpulse.com/partners/developer
+Public catalog: https://sendpulse.com/marketplace/integrations?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=01-overview
+For developers: https://sendpulse.com/partners/developer?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=01-overview
 
 ## For SendPulse users
 

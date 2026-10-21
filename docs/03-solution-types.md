@@ -28,7 +28,7 @@ The user finds their account email by clicking their profile picture in the top-
 
 - Set up and managed on your own site, outside the SendPulse account.
 - The listing shows your description, key features, setup guide, screenshots and an **External integration link** to your setup page.
-- No Install URL, Uninstall URL, scopes or token flow on the SendPulse side. Your service authenticates with SendPulse the usual way (REST API keys or OAuth as documented at https://sendpulse.com/integrations/api).
+- No Install URL, Uninstall URL, scopes or token flow on the SendPulse side. Your service authenticates with SendPulse the usual way (REST API keys or OAuth as documented at https://sendpulse.com/integrations/api?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=03-solution-types).
 - Submitted for review from the **Integrations** tab.
 
 ## Which one to pick

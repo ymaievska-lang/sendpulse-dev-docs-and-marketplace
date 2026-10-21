@@ -11,7 +11,7 @@ Charge users for installing your app. Set it up when creating the app (**Monetiz
 
 - Add up to **12** payment methods with **+ Add payment method**.
 - Currency comes from the payment system settings.
-- Payment systems are connected in **Account settings → Accept payments**: https://sendpulse.com/knowledge-base/account-settings/accept-payments
+- Payment systems are connected in **Account settings → Accept payments**: https://sendpulse.com/knowledge-base/account-settings/accept-payments?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=12-monetization
 
 ## CRM integration
 

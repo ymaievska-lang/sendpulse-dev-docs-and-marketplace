@@ -32,5 +32,5 @@ Key endpoints:
 - [Python + Flask](examples/python-flask/app.py)
 
 ## Optional
-- [SendPulse REST API reference](https://sendpulse.com/integrations/api)
-- [SendPulse MCP server](https://sendpulse.com/features/mcp)
+- [SendPulse REST API reference](https://sendpulse.com/integrations/api?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=llms-txt)
+- [SendPulse MCP server](https://sendpulse.com/features/mcp?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=llms-txt)

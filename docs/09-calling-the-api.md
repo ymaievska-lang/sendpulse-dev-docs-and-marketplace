@@ -2,7 +2,7 @@
 
 Base URL: `https://api.sendpulse.com`
 Auth header: `Authorization: Bearer {access_token}` (token from [User access token](07-access-token.md)).
-Full method reference: https://sendpulse.com/integrations/api
+Full method reference: https://sendpulse.com/integrations/api?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=09-calling-the-api
 
 Your app can call only the methods covered by the scopes the user approved.
 
@@ -60,7 +60,7 @@ Exceeding a quota returns `429 Too many requests`. A separate error code `202020
 | `429` | Quota exceeded | Back off (exponential, with jitter) and retry. Batch where the API allows it. |
 | `5xx` | Temporary server error | Retry with exponential backoff. |
 
-Many API errors also carry a numeric SendPulse code with a description, for example `8` No data, `707` account balance depleted, `800` invalid operation. Full table: https://sendpulse.com/integrations/api
+Many API errors also carry a numeric SendPulse code with a description, for example `8` No data, `707` account balance depleted, `800` invalid operation. Full table: https://sendpulse.com/integrations/api?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=09-calling-the-api
 
 ## Which methods your app can call
 

@@ -52,9 +52,9 @@ On uninstall: SendPulse → POST https://YOUR_UNINSTALL_URL  (user + keys JSON),
 
 ## Links
 
-- App Directory for developers: https://sendpulse.com/partners/developer
-- Help Center, developer section: https://sendpulse.com/knowledge-base/app-directory/developers
-- SendPulse REST API reference: https://sendpulse.com/integrations/api
-- SendPulse MCP server: https://sendpulse.com/features/mcp
+- App Directory for developers: https://sendpulse.com/partners/developer?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=readme
+- Help Center, developer section: https://sendpulse.com/knowledge-base/app-directory/developers?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=readme
+- SendPulse REST API reference: https://sendpulse.com/integrations/api?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=readme
+- SendPulse MCP server: https://sendpulse.com/features/mcp?utm_source=context7&utm_medium=docs&utm_campaign=dev-docs&utm_content=readme
 - Figma UI Kit: https://www.figma.com/design/35Pifp7O3PssNIutU2JM9Q/SendPulse-App-Marketplace-UI-Kit
 - Packagist PHP package: https://packagist.org/packages/sendpulse/market-rest-api
